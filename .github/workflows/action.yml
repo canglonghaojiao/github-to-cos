@@ -2,7 +2,8 @@ name: 同步任务
 
 on: 
   push:
-  gollum: 
+  gollum:
+  workflow_dispatch:
   schedule: 
       - cron: '10 */6 * * *'
 
